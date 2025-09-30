@@ -1,0 +1,138 @@
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar { 
+  background-color: #FAEDCD;;
+  height: 48px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar > * {
+  margin: 0 12px 0 128px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-weight: black;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #a9835c;
+}
+
+.brand h2 {
+  margin: 0;
+}
+
+.brand i {
+  font-size: 28px;
+}
+
+.btn {
+  all: unset;
+  height: 24px;
+  text-align: center;
+  background-color: #CCD5AE;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 12px;
+  font-family: sans-serif;
+}
+
+.actions {
+  margin-right: 128px;
+}
+
+.hero {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  background-image: url('https://images.unsplash.com/photo-1722505531280-a2f4d5f934a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 65vh;
+  padding: 32px;
+}
+
+.hero-content {
+  color: white;
+  opacity: 0.75;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-primary {
+  color: #D4A373
+}
+
+.bg-primary {
+  background-color: #D4A373;
+}
+
+.hero-content h1 {
+  font-size: 94px;
+  font-weight: black;
+  width:60%;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  line-height: 0.8;
+  font-family: "Over the Rainbow", cursive;
+}
+
+
+.hero-content h3{
+  width: 50%;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.card {
+  margin: 28px;
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  border-radius: 4px;
+  justify-content: center;
+  box-shadow: 10px 10px 30px -21px rgba(0,0,0,0.72);
+}
+
+.card > * {
+  margin: 12px 0px 4px 0px;
+}
+
+.card img{
+  object-fit: contain;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+  margin: 68px 128px;
+}

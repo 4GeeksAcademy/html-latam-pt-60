@@ -1,0 +1,12 @@
+footer {
+    background-color: #FAEDCD;
+    width: 100%;
+    /* padding: 18px; */
+    color: #D4A373;
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer p {
+    padding: 18px;
+}
